@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_g7ArIIPsEeaKArS2suF3Bw" name="TD1UML">
+    <eAnnotations xmi:id="_g_oscIPsEeaKArS2suF3Bw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_g_oscYPsEeaKArS2suF3Bw" source="codegen">
+        <details xmi:id="_g_oscoPsEeaKArS2suF3Bw" key="codegenDirectory" value="/TD1UML/src"/>
+        <details xmi:id="_g_osdoPsEeaKArS2suF3Bw" key="observedFolders" value="/TD1UML/src"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nLPTEIPsEeaKArS2suF3Bw" name="Pieces">
+      <ownedAttribute xmi:id="_vPdLsIPtEeaKArS2suF3Bw" name="murs" type="_FUp9sIPtEeaKArS2suF3Bw" aggregation="composite" association="_vPTasIPtEeaKArS2suF3Bw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vPdLsYPtEeaKArS2suF3Bw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vPdLsoPtEeaKArS2suF3Bw" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FUp9sIPtEeaKArS2suF3Bw" name="Murs">
+      <ownedAttribute xmi:id="_vPTasYPtEeaKArS2suF3Bw" name="pieces" type="_nLPTEIPsEeaKArS2suF3Bw" association="_vPTasIPtEeaKArS2suF3Bw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vPTasoPtEeaKArS2suF3Bw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vPTas4PtEeaKArS2suF3Bw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T4YF0IPtEeaKArS2suF3Bw" name="Module">
+      <ownedAttribute xmi:id="_mNOWNIPtEeaKArS2suF3Bw" name="séance" type="_X39g0IPtEeaKArS2suF3Bw" aggregation="composite" association="_mNOWMIPtEeaKArS2suF3Bw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mNOWNYPtEeaKArS2suF3Bw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mNOWNoPtEeaKArS2suF3Bw" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_X39g0IPtEeaKArS2suF3Bw" name="Séance">
+      <ownedAttribute xmi:id="_mNOWMYPtEeaKArS2suF3Bw" name="module" type="_T4YF0IPtEeaKArS2suF3Bw" association="_mNOWMIPtEeaKArS2suF3Bw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mNOWMoPtEeaKArS2suF3Bw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mNOWM4PtEeaKArS2suF3Bw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mNOWMIPtEeaKArS2suF3Bw" name="" memberEnd="_mNOWMYPtEeaKArS2suF3Bw _mNOWNIPtEeaKArS2suF3Bw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vPTasIPtEeaKArS2suF3Bw" name="" memberEnd="_vPTasYPtEeaKArS2suF3Bw _vPdLsIPtEeaKArS2suF3Bw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6OkkoIPtEeaKArS2suF3Bw" name="Péripherique"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_G2JwMIPuEeaKArS2suF3Bw" name="Entrée"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HLUH4IPuEeaKArS2suF3Bw" name="Sortie"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_M3_2gIPxEeaKArS2suF3Bw" name="Clavier"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Vi4jAIPxEeaKArS2suF3Bw" name="Ecran"/>
+    <profileApplication xmi:id="_g_osc4PsEeaKArS2suF3Bw">
+      <eAnnotations xmi:id="_g_osdIPsEeaKArS2suF3Bw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_g_osdYPsEeaKArS2suF3Bw" base_Package="_g7ArIIPsEeaKArS2suF3Bw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>

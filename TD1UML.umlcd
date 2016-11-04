@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_g7dXEIPsEeaKArS2suF3Bw">
+  <modelElement href="TD1UML.uml#_g7ArIIPsEeaKArS2suF3Bw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mNOWN4PtEeaKArS2suF3Bw" sourceAnchor="124.0,61.0" targetAnchor="0.0,57.0" target="_X39g0YPtEeaKArS2suF3Bw" source="_T4YF0YPtEeaKArS2suF3Bw">
+    <modelElement href="TD1UML.uml#_mNOWMIPtEeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_mNOWOIPtEeaKArS2suF3Bw"/>
+    <nameVisual xmi:id="_mNOWOYPtEeaKArS2suF3Bw" text="">
+      <visualProperties xmi:id="_mPBF8YPtEeaKArS2suF3Bw" position="-5.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mNOWOoPtEeaKArS2suF3Bw" aggregationKind="NONE" name="module" navigable="true">
+      <modelElement href="TD1UML.uml#_mNOWMYPtEeaKArS2suF3Bw"/>
+      <visualProperties xmi:id="_mPBF8IPtEeaKArS2suF3Bw" position="39.0,-47.0"/>
+      <visibility xmi:id="_mNOWO4PtEeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_mNOWPIPtEeaKArS2suF3Bw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mNOWPYPtEeaKArS2suF3Bw" name="séance" navigable="true">
+      <modelElement href="TD1UML.uml#_mNOWNIPtEeaKArS2suF3Bw"/>
+      <visualProperties xmi:id="_mPBF8oPtEeaKArS2suF3Bw" position="-84.0,-47.0"/>
+      <visibility xmi:id="_mNOWPoPtEeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_mNOWP4PtEeaKArS2suF3Bw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_vPdLs4PtEeaKArS2suF3Bw" sourceAnchor="100.0,63.0" targetAnchor="0.0,66.0" target="_FUp9sYPtEeaKArS2suF3Bw" source="_nLPTEYPsEeaKArS2suF3Bw">
+    <modelElement href="TD1UML.uml#_vPTasIPtEeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_vPdLtIPtEeaKArS2suF3Bw"/>
+    <nameVisual xmi:id="_vPdLtYPtEeaKArS2suF3Bw" text="">
+      <visualProperties xmi:id="_vRPUYYPtEeaKArS2suF3Bw" position="-15.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_vPdLtoPtEeaKArS2suF3Bw" aggregationKind="NONE" name="pieces" navigable="true">
+      <modelElement href="TD1UML.uml#_vPTasYPtEeaKArS2suF3Bw"/>
+      <visualProperties xmi:id="_vRPUYIPtEeaKArS2suF3Bw" position="33.60000000000002,-47.0"/>
+      <visibility xmi:id="_vPdLt4PtEeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_vPdLuIPtEeaKArS2suF3Bw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_vPdLuYPtEeaKArS2suF3Bw" name="murs" navigable="true">
+      <modelElement href="TD1UML.uml#_vPdLsIPtEeaKArS2suF3Bw"/>
+      <visualProperties xmi:id="_vRPUYoPtEeaKArS2suF3Bw" position="-71.16666666666669,-47.0"/>
+      <visibility xmi:id="_vPdLuoPtEeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_vPdLu4PtEeaKArS2suF3Bw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FUp9sYPtEeaKArS2suF3Bw" name="Murs" associationsIn="_vPdLs4PtEeaKArS2suF3Bw">
+    <modelElement href="TD1UML.uml#_FUp9sIPtEeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_FUp9soPtEeaKArS2suF3Bw" position="440.0,185.0" size="87.0,132.0"/>
+    <visibility xmi:id="_FUp9s4PtEeaKArS2suF3Bw" label="+"/>
+    <attributes xmi:id="_vPdLvIPtEeaKArS2suF3Bw" name="pieces">
+      <modelElement href="TD1UML.uml#_vPTasYPtEeaKArS2suF3Bw"/>
+      <visibility xmi:id="_vPdLvYPtEeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_vPdLvoPtEeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <type xmi:id="_vPdLv4PtEeaKArS2suF3Bw" name="Pieces">
+        <modelElement href="TD1UML.uml#_nLPTEIPsEeaKArS2suF3Bw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_T4YF0YPtEeaKArS2suF3Bw" name="Module" associationsOut="_mNOWN4PtEeaKArS2suF3Bw">
+    <modelElement href="TD1UML.uml#_T4YF0IPtEeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_T4YF0oPtEeaKArS2suF3Bw" position="112.0,25.0" size="124.0,119.0"/>
+    <visibility xmi:id="_T4YF04PtEeaKArS2suF3Bw" label="+"/>
+    <attributes xmi:id="_mNOWRIPtEeaKArS2suF3Bw" name="séance">
+      <modelElement href="TD1UML.uml#_mNOWNIPtEeaKArS2suF3Bw"/>
+      <visibility xmi:id="_mNOWRYPtEeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_mNOWRoPtEeaKArS2suF3Bw" label="*" max="-1"/>
+      <type xmi:id="_mNOWR4PtEeaKArS2suF3Bw" name="Séance">
+        <modelElement href="TD1UML.uml#_X39g0IPtEeaKArS2suF3Bw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_X39g0YPtEeaKArS2suF3Bw" name="Séance" associationsIn="_mNOWN4PtEeaKArS2suF3Bw">
+    <modelElement href="TD1UML.uml#_X39g0IPtEeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_X39g0oPtEeaKArS2suF3Bw" position="449.0,29.0" size="91.0,114.0"/>
+    <visibility xmi:id="_X39g04PtEeaKArS2suF3Bw" label="+"/>
+    <attributes xmi:id="_mNOWQIPtEeaKArS2suF3Bw" name="module">
+      <modelElement href="TD1UML.uml#_mNOWMYPtEeaKArS2suF3Bw"/>
+      <visibility xmi:id="_mNOWQYPtEeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_mNOWQoPtEeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <type xmi:id="_mNOWQ4PtEeaKArS2suF3Bw" name="Module">
+        <modelElement href="TD1UML.uml#_T4YF0IPtEeaKArS2suF3Bw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6OkkoYPtEeaKArS2suF3Bw" name="Péripherique">
+    <modelElement href="TD1UML.uml#_6OkkoIPtEeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_6OkkooPtEeaKArS2suF3Bw" position="273.0,334.0" size="84.0,108.0"/>
+    <visibility xmi:id="_6Okko4PtEeaKArS2suF3Bw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_G2JwMYPuEeaKArS2suF3Bw" name="Entrée">
+    <modelElement href="TD1UML.uml#_G2JwMIPuEeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_G2JwMoPuEeaKArS2suF3Bw" position="184.0,473.0" size="49.0,97.0"/>
+    <visibility xmi:id="_G2JwM4PuEeaKArS2suF3Bw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HLUH4YPuEeaKArS2suF3Bw" name="Sortie">
+    <modelElement href="TD1UML.uml#_HLUH4IPuEeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_HLUH4oPuEeaKArS2suF3Bw" position="383.0,476.0" size="46.0,94.0"/>
+    <visibility xmi:id="_HLUH44PuEeaKArS2suF3Bw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_M3_2gYPxEeaKArS2suF3Bw" name="Clavier">
+    <modelElement href="TD1UML.uml#_M3_2gIPxEeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_M3_2goPxEeaKArS2suF3Bw" position="162.0,623.0" size="71.0,66.0"/>
+    <visibility xmi:id="_M3_2g4PxEeaKArS2suF3Bw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Vi4jAYPxEeaKArS2suF3Bw" name="Ecran">
+    <modelElement href="TD1UML.uml#_Vi4jAIPxEeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_Vi4jAoPxEeaKArS2suF3Bw" position="374.0,624.0" size="77.0,67.0"/>
+    <visibility xmi:id="_Vi4jA4PxEeaKArS2suF3Bw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_nLPTEYPsEeaKArS2suF3Bw" name="Pieces" associationsOut="_vPdLs4PtEeaKArS2suF3Bw">
+    <modelElement href="TD1UML.uml#_nLPTEIPsEeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_nLPTEoPsEeaKArS2suF3Bw" position="127.0,188.0" size="100.0,126.0"/>
+    <visibility xmi:id="_nLPTE4PsEeaKArS2suF3Bw" label="+"/>
+    <attributes xmi:id="_vPdLwIPtEeaKArS2suF3Bw" name="murs">
+      <modelElement href="TD1UML.uml#_vPdLsIPtEeaKArS2suF3Bw"/>
+      <visibility xmi:id="_vPdLwYPtEeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_vPdLwoPtEeaKArS2suF3Bw" label="*" max="-1"/>
+      <type xmi:id="_vPdLw4PtEeaKArS2suF3Bw" name="Murs">
+        <modelElement href="TD1UML.uml#_FUp9sIPtEeaKArS2suF3Bw"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

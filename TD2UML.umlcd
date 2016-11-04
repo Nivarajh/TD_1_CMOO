@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_npABkIP2EeaKArS2suF3Bw">
+  <modelElement href="TD2UML.uml#_njVecIP2EeaKArS2suF3Bw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="__9WO4YP5EeaKArS2suF3Bw" sourceAnchor="65.0,0.0" targetAnchor="79.0,142.0" superClass="_0TG8sYP2EeaKArS2suF3Bw" subClass="__f5lQYP2EeaKArS2suF3Bw">
+    <modelElement href="TD2UML.uml#__9WO4IP5EeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="__9WO4oP5EeaKArS2suF3Bw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__iTcN4P6Eeag0cOVXwYuCg" sourceAnchor="0.0,19.0" targetAnchor="158.0,71.0" target="_0TG8sYP2EeaKArS2suF3Bw" source="_W1-64YP3EeaKArS2suF3Bw">
+    <modelElement href="TD2UML.uml#__iTcMIP6Eeag0cOVXwYuCg"/>
+    <visualProperties xmi:id="__iTcOIP6Eeag0cOVXwYuCg"/>
+    <nameVisual xmi:id="__iTcOYP6Eeag0cOVXwYuCg" text="">
+      <visualProperties xmi:id="__kYf0YP6Eeag0cOVXwYuCg" position="-28.0,-19.000000000000014"/>
+    </nameVisual>
+    <sourceRole xmi:id="__iTcOoP6Eeag0cOVXwYuCg" aggregationKind="NONE" name="accueil" navigable="true">
+      <modelElement href="TD2UML.uml#__iTcMYP6Eeag0cOVXwYuCg"/>
+      <visualProperties xmi:id="__kYf0IP6Eeag0cOVXwYuCg" position="-72.33333333333331,-47.00000000000003"/>
+      <visibility xmi:id="__iTcO4P6Eeag0cOVXwYuCg" label="+"/>
+      <cardinality xmi:id="__iTcPIP6Eeag0cOVXwYuCg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__iTcPYP6Eeag0cOVXwYuCg" aggregationKind="NONE" name="dossier" navigable="true">
+      <modelElement href="TD2UML.uml#__iTcNIP6Eeag0cOVXwYuCg"/>
+      <visualProperties xmi:id="__kYf0oP6Eeag0cOVXwYuCg" position="20.33333333333337,2.0"/>
+      <visibility xmi:id="__iTcPoP6Eeag0cOVXwYuCg" label="+"/>
+      <cardinality xmi:id="__iTcP4P6Eeag0cOVXwYuCg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0TG8sYP2EeaKArS2suF3Bw" name="Dossier" associationsIn="__iTcN4P6Eeag0cOVXwYuCg" subclassedBy="__9WO4YP5EeaKArS2suF3Bw">
+    <modelElement href="TD2UML.uml#_0TG8sIP2EeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_0TG8soP2EeaKArS2suF3Bw" position="48.0,30.0" size="158.0,142.0"/>
+    <visibility xmi:id="_0TG8s4P2EeaKArS2suF3Bw" label="+"/>
+    <attributes xmi:id="_62vBwYP2EeaKArS2suF3Bw" name="id">
+      <modelElement href="TD2UML.uml#_62vBwIP2EeaKArS2suF3Bw"/>
+      <visibility xmi:id="_62vBwoP2EeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_62vBw4P2EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <type xmi:id="_9iW6gIP2EeaKArS2suF3Bw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AdLs4YP3EeaKArS2suF3Bw" name="nom">
+      <modelElement href="TD2UML.uml#_AdLs4IP3EeaKArS2suF3Bw"/>
+      <visibility xmi:id="_AdLs4oP3EeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_AdLs44P3EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <type xmi:id="_CxLv0IP3EeaKArS2suF3Bw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GLkMAYP3EeaKArS2suF3Bw" name="prenom">
+      <modelElement href="TD2UML.uml#_GLkMAIP3EeaKArS2suF3Bw"/>
+      <visibility xmi:id="_GLkMAoP3EeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_GLkMA4P3EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <type xmi:id="_LSrPwIP3EeaKArS2suF3Bw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_M6ZbgYP3EeaKArS2suF3Bw" name="resultat">
+      <modelElement href="TD2UML.uml#_M6ZbgIP3EeaKArS2suF3Bw"/>
+      <visibility xmi:id="_M6ZbgoP3EeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_M6Zbg4P3EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <type xmi:id="_QtOz8IP3EeaKArS2suF3Bw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__iTcQIP6Eeag0cOVXwYuCg" name="accueil">
+      <modelElement href="TD2UML.uml#__iTcMYP6Eeag0cOVXwYuCg"/>
+      <visibility xmi:id="__iTcQYP6Eeag0cOVXwYuCg" label="+"/>
+      <cardinality xmi:id="__iTcQoP6Eeag0cOVXwYuCg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="__iTcQ4P6Eeag0cOVXwYuCg" name="Accueil">
+        <modelElement href="TD2UML.uml#_W1-64IP3EeaKArS2suF3Bw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XuPjIYP4EeaKArS2suF3Bw" name="Medecin">
+    <modelElement href="TD2UML.uml#_XuPjIIP4EeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_XuPjIoP4EeaKArS2suF3Bw" position="436.0,418.0" size="216.0,175.0"/>
+    <visibility xmi:id="_XuPjI4P4EeaKArS2suF3Bw" label="+"/>
+    <operations xmi:id="_bMZsEoP4EeaKArS2suF3Bw" name="consulte">
+      <modelElement href="TD2UML.uml#_bMZsEIP4EeaKArS2suF3Bw"/>
+      <visibility xmi:id="_bMZsE4P4EeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_bMZsFIP4EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fZNqwYP4EeaKArS2suF3Bw" name="">
+        <modelElement href="TD2UML.uml#_fZNqwIP4EeaKArS2suF3Bw"/>
+        <type xmi:id="_fZNqwoP4EeaKArS2suF3Bw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1zitUoP5EeaKArS2suF3Bw" name="modifierDossier">
+      <modelElement href="TD2UML.uml#_1zitUIP5EeaKArS2suF3Bw"/>
+      <visibility xmi:id="_1zitU4P5EeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_1zitVIP5EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1zitVYP5EeaKArS2suF3Bw">
+        <modelElement href="TD2UML.uml#_1zitUYP5EeaKArS2suF3Bw"/>
+        <type xmi:id="_7WIzMIP5EeaKArS2suF3Bw" name="Dossier">
+          <modelElement href="TD2UML.uml#_0TG8sIP2EeaKArS2suF3Bw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__f5lQYP2EeaKArS2suF3Bw" name="Testeur" generalizations="__9WO4YP5EeaKArS2suF3Bw">
+    <modelElement href="TD2UML.uml#__f5lQIP2EeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="__f5lQoP2EeaKArS2suF3Bw" position="62.0,259.0" size="140.0,138.0"/>
+    <visibility xmi:id="__f5lQ4P2EeaKArS2suF3Bw" label="+"/>
+    <attributes xmi:id="_BTHvAYP6EeaKArS2suF3Bw" name="nom">
+      <modelElement href="TD2UML.uml#_BTHvAIP6EeaKArS2suF3Bw"/>
+      <visibility xmi:id="_BTHvAoP6EeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_BTHvA4P6EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <type xmi:id="_CqiN4IP6EeaKArS2suF3Bw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_J-SIUYP6EeaKArS2suF3Bw" name="prenom">
+      <modelElement href="TD2UML.uml#_J-SIUIP6EeaKArS2suF3Bw"/>
+      <visibility xmi:id="_J-SIUoP6EeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_J-SIU4P6EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <type xmi:id="_LO3mcIP6EeaKArS2suF3Bw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_W1-64YP3EeaKArS2suF3Bw" name="Accueil" associationsOut="__iTcN4P6Eeag0cOVXwYuCg">
+    <modelElement href="TD2UML.uml#_W1-64IP3EeaKArS2suF3Bw"/>
+    <visualProperties xmi:id="_W1-64oP3EeaKArS2suF3Bw" position="318.0,82.0" size="365.0,130.0"/>
+    <visibility xmi:id="_W1-644P3EeaKArS2suF3Bw" label="+"/>
+    <attributes xmi:id="__iTcRIP6Eeag0cOVXwYuCg" name="dossier">
+      <modelElement href="TD2UML.uml#__iTcNIP6Eeag0cOVXwYuCg"/>
+      <visibility xmi:id="__iTcRYP6Eeag0cOVXwYuCg" label="+"/>
+      <cardinality xmi:id="__iTcRoP6Eeag0cOVXwYuCg" label="1" max="1" min="1"/>
+      <type xmi:id="__iTcR4P6Eeag0cOVXwYuCg" name="Dossier">
+        <modelElement href="TD2UML.uml#_0TG8sIP2EeaKArS2suF3Bw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jpOj4oP3EeaKArS2suF3Bw" name="creerDossier">
+      <modelElement href="TD2UML.uml#_jpOj4IP3EeaKArS2suF3Bw"/>
+      <visibility xmi:id="_jpOj44P3EeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="_jpOj5IP3EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jpOj5YP3EeaKArS2suF3Bw" name="num">
+        <modelElement href="TD2UML.uml#_jpOj4YP3EeaKArS2suF3Bw"/>
+        <type xmi:id="_dz42QIP5EeaKArS2suF3Bw" name="Dossier">
+          <modelElement href="TD2UML.uml#_0TG8sIP2EeaKArS2suF3Bw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ut4kIYP3EeaKArS2suF3Bw" name="nom">
+        <modelElement href="TD2UML.uml#_ut4kIIP3EeaKArS2suF3Bw"/>
+        <cardinality xmi:id="_ut4kIoP3EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+        <type xmi:id="_wpVkMIP3EeaKArS2suF3Bw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_w9mkAYP3EeaKArS2suF3Bw" name="prenom">
+        <modelElement href="TD2UML.uml#_w9mkAIP3EeaKArS2suF3Bw"/>
+        <cardinality xmi:id="_w9mkAoP3EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+        <type xmi:id="_yUrrsIP3EeaKArS2suF3Bw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__wuaEoP3EeaKArS2suF3Bw" name="consultation">
+      <modelElement href="TD2UML.uml#__wuaEIP3EeaKArS2suF3Bw"/>
+      <visibility xmi:id="__wuaE4P3EeaKArS2suF3Bw" label="+"/>
+      <cardinality xmi:id="__wuaFIP3EeaKArS2suF3Bw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__wuaFYP3EeaKArS2suF3Bw" name="Dossier">
+        <modelElement href="TD2UML.uml#__wuaEYP3EeaKArS2suF3Bw"/>
+        <type xmi:id="_rfFlgIP6Eeag0cOVXwYuCg" name="Dossier">
+          <modelElement href="TD2UML.uml#_0TG8sIP2EeaKArS2suF3Bw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
